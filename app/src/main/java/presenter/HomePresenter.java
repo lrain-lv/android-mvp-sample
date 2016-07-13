@@ -38,6 +38,7 @@ public class HomePresenter implements IHomePresenter {
                                 return gankData != null;
                             }
                         })
+                        
                         .map(new Func1<GankData, List<GankData.ResultsBean>>() {
                             @Override
                             public List<GankData.ResultsBean> call(GankData gankData) {
